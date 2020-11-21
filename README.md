@@ -7,7 +7,7 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 In this project, I use data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. I compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-The Datasets
+# The Datasets
 Randomly selected data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
 
 Start Time (e.g., 2017-01-01 00:07:57)
@@ -25,7 +25,7 @@ Data for the first 10 rides in the new_york_city.csv file
 
 The original files are much larger and messier. These files had more columns and they differed in format in many cases. Some data wrangling has been performed to condense these files to the above core six columns to make my analysis and the evaluation of my Python skills more straightforward. 
 
-Statistics Computed
+# Statistics Computed
 I've learned about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, I wrote code to provide the following information:
 
 #1 Popular times of travel (i.e., occurs most often in the start time)
@@ -47,7 +47,7 @@ average travel time
 counts of each user type
 counts of each gender (only available for NYC and Chicago)
 earliest, most recent, most common year of birth (only available for NYC and Chicago)
-#The Files
+# The Files
 
 bikeshare2.py
 chicago.csv
